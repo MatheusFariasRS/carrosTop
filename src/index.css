@@ -2,9 +2,13 @@
 :root {
   --dsc-color-bg-primary:#fff;
   --dsc-color-bg-secondary:#F78B00;
+  --dsc-color-bg-tertiary: #00285F;
 
   --dsc-color-font-primary:#00285F;
+  --dsc-color-font-secondary: #fff;
+  --dsc-color-font-tertiary: #A7A7A7;
 
+  --dsc-color-card-border: #A7A7A7;
 }
 
 *{
