@@ -2,11 +2,13 @@
 :root {
   --dsc-color-bg-primary:#fff;
   --dsc-color-bg-secondary:#F78B00;
-  --dsc-color-bg-tertiary: #00285F;
+  --dsc-color-bg-tertiary: #00285F; 
+  --dsc-color-bg-quaternary: #EDEDED;
 
   --dsc-color-font-primary:#00285F;
   --dsc-color-font-secondary: #fff;
   --dsc-color-font-tertiary: #A7A7A7;
+  --dsc-color-font-quaternary: #585858;
 
   --dsc-color-card-border: #A7A7A7;
 }
@@ -39,7 +41,13 @@ main{
   margin: 0 auto;
 }
 
+.dsc-mt40 {
+  margin-top: 40px;
+}
 
+.dsc-mb20 {
+  margin-bottom: 20px;
+}
 
 /* -----------------*/
 
