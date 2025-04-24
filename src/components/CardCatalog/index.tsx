@@ -1,4 +1,5 @@
 import carImg from '../../assets/car.png';
+import ButtonBuy from '../ButtonBuy';
 import './styles.css';
 
 export default function CardCatalog() {
@@ -10,6 +11,9 @@ export default function CardCatalog() {
             <div className='dsc-catalog-card-bottom'>
                 <h2>Audi Supra TT</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+            </div>
+            <div className="dsc-catalog-card-btn">
+                <ButtonBuy/>
             </div>
         </div>
     );
