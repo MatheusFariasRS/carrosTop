@@ -33,35 +33,11 @@ main{
   padding: 0 20px;
 }
 
-/*generic styles*/
-
 .dsc-container{
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
 
-.dsc-mt40 {
-  margin-top: 40px;
-}
 
-.dsc-mb20 {
-  margin-bottom: 20px;
-}
 
-/* -----------------*/
-
-/* header styles */
-
-header{
-  height: 70px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
-
-nav h1{
-  font-size: 24px;
-}
-
-/* -----------------*/

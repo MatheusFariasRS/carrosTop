@@ -6,10 +6,12 @@ export default function Catalog(){
     return (
         <>
         <HeaderCatalog/>
-        <main>
+        <main className='dsc-catalog-main'>
             <section id="catalog-section" className="dsc-container">
-            <SearchBar />
-                <div className='dsc-container dsc-card-catalog dsc-mt40'>
+                <div className='dsc-search-bar-container'>
+                <SearchBar />
+                </div>
+                <div className='dsc-container dsc-card-catalog'>
                     <CardCatalog/>
                     <CardCatalog/>
                     <CardCatalog/>

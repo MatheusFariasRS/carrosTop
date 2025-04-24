@@ -1,14 +1,17 @@
 .dsc-search-bar{
+  display: flex;
+}
+
+.dsc-form-control{
     height: 40px;
-    display: flex;
+    width: 100%;
 }
 
 .dsc-search-bar input{
     border: 1px solid var(--dsc-color-card-border);
-    width: calc(100% - 77px);
     border-right: none;
     border-radius: 5px 0 0 5px;
-    padding-left: 15px;
+    padding: 0 15px;
 }
 
 .dsc-search-bar input::placeholder {
@@ -19,14 +22,15 @@
     outline: none;
   }
 
-.dsc-search-bar button{
+.dsc-search-bar-submit{
     height: 40px;
     width: 77px;
     color: var( --dsc-color-font-secondary);
     background-color: var(--dsc-color-bg-tertiary);
-    font-weight: 700;
-    font-size: 14px;
     border-radius: 0 5px 5px 0;
     border: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
