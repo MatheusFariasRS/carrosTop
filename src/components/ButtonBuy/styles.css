@@ -1,12 +1,12 @@
 .dsc-btn-buy{
     height: 40px;
-    width: 257px;
+    width: 100%;
     background-color: var(--dsc-color-bg-tertiary);
+    color: var(--dsc-color-font-secondary);
     border-radius: 5px;
     font-size: 14px;
     font-weight: 700;
-    color: var(--dsc-color-font-secondary);
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
 }
